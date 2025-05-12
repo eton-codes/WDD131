@@ -41,21 +41,6 @@ p, li {
     margin-bottom: 50px;
 }
 
-.dark {
-    background-color: black;
-    color: white;
-}
-
-.dark h2 {
-    color: rgb(160, 212, 237);
-}
-
-body {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-
 
 footer{
     display: flex;
@@ -66,3 +51,20 @@ footer{
 img {
     width: 150px;
 }
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.dark h2 {
+    color: rgb(174, 229, 255);
+}
+
+.dark img {
+    width: 150px;
+}
+
+
+
