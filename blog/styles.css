@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #fcb76d;
+    --secondary-color: #e8e2e2;
+    --tertiary-color: #332331;
+    --text-color: #2e2e2e;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+
+h1 {
+    grid-row: 1/2;
+    font-family: fantasy, serif, helvetica;
+    font-size: 40px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    border-top: var(--secondary-color) solid 1px;
+    border-bottom: var(--secondary-color) solid 1px;
+
+}
+
+nav, a {
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--text-color);
+}
+
+nav, a:hover {
+    color: var(--secondary-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.filter {
+    margin-top: 10px;
+    grid: 2/3;
+    border: var(--secondary-color) solid 1px;
+}
